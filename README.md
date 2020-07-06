@@ -5,7 +5,7 @@ A new Flutter package show crypto currency price list.
 
 ## Screenshots
 
-<img src="images/src.png" height="300em" />
+<img src="https://raw.githubusercontent.com/erfanegtfi/cryptocurrency/master/images/src.png" height="300em" />
 
 ## Usage
 

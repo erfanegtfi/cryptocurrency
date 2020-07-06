@@ -1,8 +1,7 @@
-# flutter_walkthrough
+# cryptocurrency
 
 A new Flutter package show crypto currency price list.
 
-### Show some :heart: and star the repo to support the project
 
 ## Screenshots
 

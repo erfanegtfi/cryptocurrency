@@ -9,17 +9,17 @@ A new Flutter package show crypto currency price list.
 
 ## Usage
 
-[Example](https://github.com/erfanegtfi/cryptocurrency/example/example_app.dart)
+[Example](https://github.com/erfanegtfi/cryptocurrency/blob/master/example/example.dart)
 
 To use this package :
 
-* add the dependency to your [pubspec.yaml](ttps://github.com/erfanegtfi/cryptocurrency/pubspec.yaml) file.
+* add the dependency to your [pubspec.yaml](https://github.com/erfanegtfi/cryptocurrency/blob/master/pubspec.yaml) file.
 
 ```yaml
   dependencies:
     flutter:
       sdk: flutter
-    cryptocurrency:
+    cryptocurrency: ^0.0.1
 ```
 
 ### How to use

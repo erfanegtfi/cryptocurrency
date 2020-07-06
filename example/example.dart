@@ -14,7 +14,7 @@ import 'package:cryptocurrency/model/enums.dart';
 /// [itemClickCallBack] item click call back
 /// 
 
-class CryptoListWidgett extends StatelessWidget {
+class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

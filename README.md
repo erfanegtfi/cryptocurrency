@@ -26,17 +26,17 @@ To use this package :
 
 ```dart
 
-class CryptoListWidgett extends StatelessWidget {
+class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
+    return Scaffold(
       body: CryptoListWidget(
-        [CryptoCurrencyID.BCH], // choose coin list, set empty array to show all coins
+        [CryptoCurrencyID.BCH, CryptoCurrencyID.ETH], // choose coin list, set empty array to show all coins
           cryptoCurrencyPriceType: CryptoCurrencyPriceType.USD, // price type USD, EUR, default is USD
           cryptoCurrencyExchange: CryptoCurrencyExchange.binance, // exchange type, default is binance
           header: "title", // list title, don't set to hide
           itemClickCallBack: (Coin coin) { // item click call back
-            print("${coin.name} cliced");
+            print("${coin.name} clicked");
           }),
     );
   }
